@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body{
+  background-color:rgb(52, 169, 142) ;
+  color:rgb(46, 92, 81) ;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#sign{
+  margin-left: 108px;
+  font-size: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sign_up{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 490px;
+  line-height: 30px;
+  margin-top: 6rem;
+
+
+}
+input{
+  width: 280px;
+  padding: .8rem;
+  margin: .5rem;
+  /* border-color: aqua; */
+  /* border-radius: 20px; border-color: rgb(234, 240, 239) ;
+  border-bottom:rgb(234, 240, 239) ;
+  box-shadow: none; */
+  border: none;
+  border-radius: 20px;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.sub{
+  width: 120px;
+  border-radius: 27px;
+  border-color: rgb(234, 240, 239) ;
+  border-bottom:rgb(234, 240, 239) ;
+  box-shadow: none;
+  background-image:url("logo.svg") ;
+  background-color: #3cd0e7;
+  border: none;
+  padding: .56rem;
+  margin-left: 104px;
+  font-size: 1rem;
+  color:rgb(254, 255, 255)
+  
+}
+#but:active{
+  opacity: 0.7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
